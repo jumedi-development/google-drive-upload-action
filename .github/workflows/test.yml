@@ -1,0 +1,24 @@
+name: Test
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'master'
+  pull_request:
+    types: [ opened ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ArtemMarchukInmost/google-drive-upload-action@master
+        with:
+          GOOGLE_CLIENT_ID: ${{secrets.GOOGLE_CLIENT_ID}}
+          GOOGLE_CLIENT_SECRET: ${{secrets.GOOGLE_CLIENT_SECRET}}
+          GOOGLE_REFRESH_TOKEN: ${{secrets.GOOGLE_REFRESH_TOKEN}}
+          GOOGLE_FOLDER_ID: ${{secrets.GOOGLE_FOLDER}}
+          FILE_PATH: ${{ github.workspace }}/.github/test.txt
+          FILE_MIME_TYPE: text/plain
+          FILE_NAME: test.txt

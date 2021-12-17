@@ -1,0 +1,28 @@
+{
+  "name": "google-drive-upload-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtemMarchukInmost/google-drive-upload-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtemMarchukInmost/google-drive-upload-action/issues"
+  },
+  "homepage": "https://github.com/ArtemMarchukInmost/google-drive-upload-action#readme",
+  "devDependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "@vercel/ncc": "^0.33.0"
+  },
+  "dependencies": {
+    "googleapis": "^92.0.0"
+  }
+}

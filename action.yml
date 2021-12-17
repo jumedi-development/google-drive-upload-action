@@ -1,0 +1,30 @@
+name: 'Upload File'
+description: 'Upload File To Google Drive Folder'
+author: '[Inmost]'
+
+inputs:
+  GOOGLE_CLIENT_ID:
+    description: 'Google Client ID'
+    required: true
+  GOOGLE_CLIENT_SECRET:
+    description: 'Google Client Secret'
+    required: true
+  GOOGLE_REFRESH_TOKEN:
+    description: 'Google Refresh Token'
+    required: true
+  GOOGLE_FOLDER_ID:
+    description: 'Google Folder ID'
+    required: true
+  FILE_PATH:
+    description: 'File Path'
+    required: true
+  FILE_MIME_TYPE:
+    description: 'File Mime Type'
+    required: true
+  FILE_NAME:
+    description: 'File Name (it will display in google drive)'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
