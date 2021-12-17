@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArtemMarchukInmost/google-drive-upload-action.git"
+    "url": "git+https://github.com/jumedi/google-drive-upload-action.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ArtemMarchukInmost/google-drive-upload-action/issues"
+    "url": "https://github.com/jumedi/google-drive-upload-action/issues"
   },
-  "homepage": "https://github.com/ArtemMarchukInmost/google-drive-upload-action#readme",
+  "homepage": "https://github.com/jumedi/google-drive-upload-action#readme",
   "devDependencies": {
     "@actions/core": "^1.6.0",
     "@actions/github": "^5.0.0",

@@ -5,7 +5,7 @@ This action upload your file to google drive folder
 ## Usage Example
 
 ```yaml
-- uses: ArtemMarchukInmost/google-drive-upload-action@master
+- uses: jumedi/google-drive-upload-action@master
   with:
     GOOGLE_CLIENT_ID: ${{secrets.GOOGLE_CLIENT_ID}}
     GOOGLE_CLIENT_SECRET: ${{secrets.GOOGLE_CLIENT_SECRET}}

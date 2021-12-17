@@ -1,6 +1,6 @@
 name: 'Upload File'
 description: 'Upload File To Google Drive Folder'
-author: '[Inmost]'
+author: '[Jumedi]'
 
 inputs:
   GOOGLE_CLIENT_ID:
