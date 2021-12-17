@@ -18,7 +18,7 @@ jobs:
           GOOGLE_CLIENT_ID: ${{secrets.GOOGLE_CLIENT_ID}}
           GOOGLE_CLIENT_SECRET: ${{secrets.GOOGLE_CLIENT_SECRET}}
           GOOGLE_REFRESH_TOKEN: ${{secrets.GOOGLE_REFRESH_TOKEN}}
-          GOOGLE_FOLDER_ID: ${{secrets.GOOGLE_FOLDER}}
+          GOOGLE_FOLDER_ID: 1cRee3rjMgjbbIyOY9pQTDkvcOD0teN6h
           FILE_PATH: ${{ github.workspace }}/.github/test.txt
           FILE_MIME_TYPE: text/plain
           FILE_NAME: test.txt
